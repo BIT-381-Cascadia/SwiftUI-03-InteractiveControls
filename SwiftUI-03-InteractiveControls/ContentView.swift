@@ -12,19 +12,19 @@ struct ContentView: View {
         TabView {
             NavigationView {
                 VStack {
-                    NavigationLink(destination: MyCustomView(subtitle:"From the example app")
-                                    .navigationBarTitle("MyCustomView")
+                    NavigationLink(destination: MyCustomView(subtitle:"List of our team members")
+                                    .navigationBarTitle("Our Team")
                     ) {
-                        Text("MyCustomView")
+                        Text("  Our Team   ")
                             .padding()
                             .background(Color.red)
                             .foregroundColor(.black)
                     }
                 
                     NavigationLink(destination: TextFieldExample()
-                                    .navigationBarTitle("TextFieldExample")
+                                    .navigationBarTitle("Logo Design")
                     ) {
-                        Text("TextFieldExample")
+                        Text("Logo Design")
                             .padding()
                             .background(Color.orange)
                             .foregroundColor(.black)
@@ -33,7 +33,7 @@ struct ContentView: View {
                     NavigationLink(destination: InteractiveButton()
                                     .navigationBarTitle("InteractiveButton")
                     ) {
-                        Text("InteractiveButton")
+                        Text("     My Info    ")
                             .padding()
                             .background(Color.yellow)
                             .foregroundColor(.black)

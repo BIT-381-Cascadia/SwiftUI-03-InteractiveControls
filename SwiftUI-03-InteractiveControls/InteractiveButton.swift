@@ -23,35 +23,44 @@ struct InteractiveButton: View {
             .contentShape(Rectangle())
 
             if showDetails {
-                Text("You should follow me on Twitter: @twostraws")
+                Text("You should follow me \n on instagram @matin.mirzaei")
                     .font(.largeTitle)
+                    .multilineTextAlignment(.center)
             }
             
             // We can get fancier with the button if we want:
+           
             Button() {
                 showDetails.toggle()
+                
             }
             label: {
-                Text("Press Me")
-                    .padding(20) .background(Color.red)
+                Text("PRESS ME")
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
+                    .font(.system(size: 25))
+                    .padding(20) .background(Color.blue)
+                    .border(Color.white, width: 6)
+        
             }
+            
             .contentShape(Rectangle())
+            }
             
             // double-plus extra bonus fancy!
             Button() {
                 showDetails.toggle()
             }
             label: {
-                Text("Press Me")
-                    .background(Color.red)
-                    .padding(20)
-                    .background(Color.white)
-                    .padding(10)
-                    .background(Color.red)
+                Text("Press For Info")
+                    .foregroundColor(.purple)
+                    .font(.title)
+                    .padding()
+                    .border(Color.purple, width: 8)
             }
             .contentShape(Rectangle())
         }
-    }
+    
 }
 
 struct InteractiveButton_Previews: PreviewProvider {
