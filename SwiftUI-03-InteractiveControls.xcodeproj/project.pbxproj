@@ -11,6 +11,11 @@
 		E47E83E12623D58C0070554F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83E02623D58C0070554F /* ContentView.swift */; };
 		E47E83E32623D58D0070554F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47E83E22623D58D0070554F /* Assets.xcassets */; };
 		E47E83E62623D58D0070554F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47E83E52623D58D0070554F /* Preview Assets.xcassets */; };
+		E47E83EF262409F90070554F /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83EE262409F90070554F /* MyCustomView.swift */; };
+		E47E83F426240F9E0070554F /* InteractiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83F326240F9E0070554F /* InteractiveButton.swift */; };
+		E47E83F7262415710070554F /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83F6262415710070554F /* TextFieldExample.swift */; };
+		E47E83FC262419D20070554F /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83FB262419D20070554F /* TabViewExample.swift */; };
+		E47E840026241BE40070554F /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83FF26241BE40070554F /* NavigationViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		E47E83E22623D58D0070554F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47E83E52623D58D0070554F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E47E83E72623D58D0070554F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47E83EE262409F90070554F /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
+		E47E83F326240F9E0070554F /* InteractiveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveButton.swift; sourceTree = "<group>"; };
+		E47E83F6262415710070554F /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		E47E83FB262419D20070554F /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
+		E47E83FF26241BE40070554F /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,13 @@
 		E47E83DD2623D58C0070554F /* SwiftUI-03-InteractiveControls */ = {
 			isa = PBXGroup;
 			children = (
-				E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */,
+				E47E83EE262409F90070554F /* MyCustomView.swift */,
+				E47E83F6262415710070554F /* TextFieldExample.swift */,
+				E47E83F326240F9E0070554F /* InteractiveButton.swift */,
+				E47E83FB262419D20070554F /* TabViewExample.swift */,
+				E47E83FF26241BE40070554F /* NavigationViewExample.swift */,
 				E47E83E02623D58C0070554F /* ContentView.swift */,
+				E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */,
 				E47E83E22623D58D0070554F /* Assets.xcassets */,
 				E47E83E72623D58D0070554F /* Info.plist */,
 				E47E83E42623D58D0070554F /* Preview Content */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47E83F426240F9E0070554F /* InteractiveButton.swift in Sources */,
+				E47E83FC262419D20070554F /* TabViewExample.swift in Sources */,
+				E47E840026241BE40070554F /* NavigationViewExample.swift in Sources */,
 				E47E83E12623D58C0070554F /* ContentView.swift in Sources */,
+				E47E83EF262409F90070554F /* MyCustomView.swift in Sources */,
 				E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */,
+				E47E83F7262415710070554F /* TextFieldExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
