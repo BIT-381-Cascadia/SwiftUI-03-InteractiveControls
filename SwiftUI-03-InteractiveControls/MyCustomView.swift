@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MyCustomView: View {
+    @State private var submit = false
     
     var subtitle: String
     
@@ -16,6 +17,7 @@ struct MyCustomView: View {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Text(subtitle)
         }
+        
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F30AEC1262504AC00579756 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F30AEC0262504AC00579756 /* CustomTabView.swift */; };
 		E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */; };
 		E47E83E12623D58C0070554F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83E02623D58C0070554F /* ContentView.swift */; };
 		E47E83E32623D58D0070554F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47E83E22623D58D0070554F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F30AEC0262504AC00579756 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		E47E83DB2623D58C0070554F /* SwiftUI-03-InteractiveControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-03-InteractiveControls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_03_InteractiveControlsApp.swift; sourceTree = "<group>"; };
 		E47E83E02623D58C0070554F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		E47E83DD2623D58C0070554F /* SwiftUI-03-InteractiveControls */ = {
 			isa = PBXGroup;
 			children = (
+				3F30AEC0262504AC00579756 /* CustomTabView.swift */,
 				E47E83EE262409F90070554F /* MyCustomView.swift */,
 				E47E83F6262415710070554F /* TextFieldExample.swift */,
 				E47E83F326240F9E0070554F /* InteractiveButton.swift */,
@@ -157,6 +160,7 @@
 				E47E83FC262419D20070554F /* TabViewExample.swift in Sources */,
 				E47E840026241BE40070554F /* NavigationViewExample.swift in Sources */,
 				E47E83E12623D58C0070554F /* ContentView.swift in Sources */,
+				3F30AEC1262504AC00579756 /* CustomTabView.swift in Sources */,
 				E47E83EF262409F90070554F /* MyCustomView.swift in Sources */,
 				E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */,
 				E47E83F7262415710070554F /* TextFieldExample.swift in Sources */,
