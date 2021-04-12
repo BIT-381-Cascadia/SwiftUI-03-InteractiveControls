@@ -38,6 +38,15 @@ struct ContentView: View {
                             .background(Color.yellow)
                             .foregroundColor(.black)
                     }
+                    NavigationLink(destination: CalmTheStorm()
+                                    .navigationBarTitle("Calm the Storm example")
+                    ) {
+                        Text("Calm the Storm example")
+                            .padding()
+                            .background(Color.pink)
+                            .foregroundColor(.black)
+                    }
+                    
                 }
                 .navigationBarTitle("Interactive Control Examples", displayMode:.inline )
             }.tabItem {
