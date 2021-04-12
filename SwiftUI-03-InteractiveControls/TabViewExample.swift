@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct TabViewExample: View {
     var body: some View {
 //        // Kinda funny to try this version:
@@ -22,6 +23,10 @@ struct TabViewExample: View {
             Text("View #2")
                 .tabItem {
                     Text("Option 2")
+                }
+            MyCustomView(subtitle: "Demo")
+                .tabItem {
+                    Text("CustomView")
                 }
         }
         
