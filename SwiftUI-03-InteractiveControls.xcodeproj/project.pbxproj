@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8089302624FA430042E5AD /* InClassActivityPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F80892F2624FA430042E5AD /* InClassActivityPractice.swift */; };
 		E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */; };
 		E47E83E12623D58C0070554F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83E02623D58C0070554F /* ContentView.swift */; };
 		E47E83E32623D58D0070554F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47E83E22623D58D0070554F /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F80892F2624FA430042E5AD /* InClassActivityPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClassActivityPractice.swift; sourceTree = "<group>"; };
 		E47E83DB2623D58C0070554F /* SwiftUI-03-InteractiveControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-03-InteractiveControls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_03_InteractiveControlsApp.swift; sourceTree = "<group>"; };
 		E47E83E02623D58C0070554F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		E47E83DD2623D58C0070554F /* SwiftUI-03-InteractiveControls */ = {
 			isa = PBXGroup;
 			children = (
+				3F80892F2624FA430042E5AD /* InClassActivityPractice.swift */,
 				E47E83EE262409F90070554F /* MyCustomView.swift */,
 				E47E83F6262415710070554F /* TextFieldExample.swift */,
 				E47E83F326240F9E0070554F /* InteractiveButton.swift */,
@@ -158,6 +161,7 @@
 				E47E840026241BE40070554F /* NavigationViewExample.swift in Sources */,
 				E47E83E12623D58C0070554F /* ContentView.swift in Sources */,
 				E47E83EF262409F90070554F /* MyCustomView.swift in Sources */,
+				3F8089302624FA430042E5AD /* InClassActivityPractice.swift in Sources */,
 				E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */,
 				E47E83F7262415710070554F /* TextFieldExample.swift in Sources */,
 			);
