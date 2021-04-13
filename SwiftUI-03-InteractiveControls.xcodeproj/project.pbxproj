@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191C034B262515C000FEE5A1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C034A262515C000FEE5A1 /* TestView.swift */; };
+		191C03502625316000FEE5A1 /* MyButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C034F2625316000FEE5A1 /* MyButtons.swift */; };
 		E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */; };
 		E47E83E12623D58C0070554F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83E02623D58C0070554F /* ContentView.swift */; };
 		E47E83E32623D58D0070554F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47E83E22623D58D0070554F /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		191C034A262515C000FEE5A1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		191C034F2625316000FEE5A1 /* MyButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtons.swift; sourceTree = "<group>"; };
 		E47E83DB2623D58C0070554F /* SwiftUI-03-InteractiveControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-03-InteractiveControls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_03_InteractiveControlsApp.swift; sourceTree = "<group>"; };
 		E47E83E02623D58C0070554F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				E47E83E22623D58D0070554F /* Assets.xcassets */,
 				E47E83E72623D58D0070554F /* Info.plist */,
 				E47E83E42623D58D0070554F /* Preview Content */,
+				191C034A262515C000FEE5A1 /* TestView.swift */,
+				191C034F2625316000FEE5A1 /* MyButtons.swift */,
 			);
 			path = "SwiftUI-03-InteractiveControls";
 			sourceTree = "<group>";
@@ -153,10 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				191C03502625316000FEE5A1 /* MyButtons.swift in Sources */,
 				E47E83F426240F9E0070554F /* InteractiveButton.swift in Sources */,
 				E47E83FC262419D20070554F /* TabViewExample.swift in Sources */,
 				E47E840026241BE40070554F /* NavigationViewExample.swift in Sources */,
 				E47E83E12623D58C0070554F /* ContentView.swift in Sources */,
+				191C034B262515C000FEE5A1 /* TestView.swift in Sources */,
 				E47E83EF262409F90070554F /* MyCustomView.swift in Sources */,
 				E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */,
 				E47E83F7262415710070554F /* TextFieldExample.swift in Sources */,
