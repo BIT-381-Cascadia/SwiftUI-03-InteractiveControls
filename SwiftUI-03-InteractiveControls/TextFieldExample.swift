@@ -9,11 +9,22 @@ import SwiftUI
 
 struct TextFieldExample: View {
     @State var usersInput: String = ""
-    
+    @State private var showDetails = false;
     var body: some View {
         VStack {
+            Button("Tap for details",
+                   action: {
+                    showDetails.toggle()
+                   })
+                .contentShape(Rectangle())
+            
+            if showDetails{
+                Text("You should follow me on insta")
+                    .font(.largeTitle)
+            }
+
         Text("Please type something,\nthen tap the button")
-        TextField("Type your input here", text:$usersInput)
+            TextField("Type your input here", text:$usersInput)
         Text("You typed:\n\(usersInput)")
         }
         .padding()
