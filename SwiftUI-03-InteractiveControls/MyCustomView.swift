@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MyCustomView: View {
     
-    var subtitle: String
+    let subtitle: String
     
     var body: some View {
         VStack {

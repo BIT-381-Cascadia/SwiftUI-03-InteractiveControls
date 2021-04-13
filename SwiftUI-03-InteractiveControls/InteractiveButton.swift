@@ -17,18 +17,19 @@ struct InteractiveButton: View {
         VStack(alignment: .center) {
             
             // Respond when clicked (by showing teh details)
-            Button("Tap for details") {
+            Button("Tap for details",
+                   action: { // normal closure
                 showDetails.toggle()
-            }
+            })
             .contentShape(Rectangle())
 
-            if showDetails {
+            if showDetails == true {
                 Text("You should follow me on Twitter: @twostraws")
                     .font(.largeTitle)
             }
             
             // We can get fancier with the button if we want:
-            Button() {
+            Button() { // trailing closure
                 showDetails.toggle()
             }
             label: {
