@@ -30,6 +30,15 @@ struct ContentView: View {
                             .foregroundColor(.black)
                     }
                     
+                    NavigationLink(destination: FormExample()
+                                    .navigationBarTitle("Form Example")
+                    ) {
+                        Text("Form Example")
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.black)
+                    }
+                    
                     NavigationLink(destination: InteractiveButton()
                                     .navigationBarTitle("InteractiveButton")
                     ) {

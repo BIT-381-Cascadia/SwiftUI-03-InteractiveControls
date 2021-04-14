@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E467A6A42624E584008F145B /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E467A6A32624E584008F145B /* SwiftUIView.swift */; };
 		E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */; };
 		E47E83E12623D58C0070554F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83E02623D58C0070554F /* ContentView.swift */; };
 		E47E83E32623D58D0070554F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47E83E22623D58D0070554F /* Assets.xcassets */; };
@@ -17,10 +16,10 @@
 		E47E83F7262415710070554F /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83F6262415710070554F /* TextFieldExample.swift */; };
 		E47E83FC262419D20070554F /* TabViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83FB262419D20070554F /* TabViewExample.swift */; };
 		E47E840026241BE40070554F /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47E83FF26241BE40070554F /* NavigationViewExample.swift */; };
+		E930234F26275DFE00FD8C57 /* FormExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E930234E26275DFE00FD8C57 /* FormExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E467A6A32624E584008F145B /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		E47E83DB2623D58C0070554F /* SwiftUI-03-InteractiveControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-03-InteractiveControls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47E83DE2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_03_InteractiveControlsApp.swift; sourceTree = "<group>"; };
 		E47E83E02623D58C0070554F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +31,7 @@
 		E47E83F6262415710070554F /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
 		E47E83FB262419D20070554F /* TabViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExample.swift; sourceTree = "<group>"; };
 		E47E83FF26241BE40070554F /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
+		E930234E26275DFE00FD8C57 /* FormExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				E47E83E22623D58D0070554F /* Assets.xcassets */,
 				E47E83E72623D58D0070554F /* Info.plist */,
 				E47E83E42623D58D0070554F /* Preview Content */,
-				E467A6A32624E584008F145B /* SwiftUIView.swift */,
+				E930234E26275DFE00FD8C57 /* FormExample.swift */,
 			);
 			path = "SwiftUI-03-InteractiveControls";
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 			files = (
 				E47E83F426240F9E0070554F /* InteractiveButton.swift in Sources */,
 				E47E83FC262419D20070554F /* TabViewExample.swift in Sources */,
-				E467A6A42624E584008F145B /* SwiftUIView.swift in Sources */,
 				E47E840026241BE40070554F /* NavigationViewExample.swift in Sources */,
 				E47E83E12623D58C0070554F /* ContentView.swift in Sources */,
+				E930234F26275DFE00FD8C57 /* FormExample.swift in Sources */,
 				E47E83EF262409F90070554F /* MyCustomView.swift in Sources */,
 				E47E83DF2623D58C0070554F /* SwiftUI_03_InteractiveControlsApp.swift in Sources */,
 				E47E83F7262415710070554F /* TextFieldExample.swift in Sources */,
