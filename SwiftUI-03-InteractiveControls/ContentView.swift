@@ -15,7 +15,7 @@ struct ContentView: View {
                     NavigationLink(destination: MyCustomView(subtitle:"From the example app")
                                     .navigationBarTitle("MyCustomView")
                     ) {
-                        Text("MyCustomView")
+                        Text("Event Info")
                             .padding()
                             .background(Color.red)
                             .foregroundColor(.black)
