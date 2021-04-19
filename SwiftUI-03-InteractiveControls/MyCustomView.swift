@@ -12,10 +12,21 @@ struct MyCustomView: View {
     let subtitle: String
     
     var body: some View {
+        // button with closure
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Text(subtitle)
+            Button("Click Me", action: {
+                print("Nicely done!")
+            })
         }
+        
+        Button(action: {
+            print("Hello again!")
+        }, label: {
+            HStack {
+                Text("Edit Button")
+            }
+        })
     }
 }
 
