@@ -38,6 +38,14 @@ struct ContentView: View {
                             .background(Color.yellow)
                             .foregroundColor(.black)
                     }
+                    NavigationLink(destination: InClassActivity_InteractiveControls()
+                                    .navigationBarTitle("InClassActivity")
+                    ) {
+                        Text("InClassActivity")
+                            .padding()
+                            .background(Color.green)
+                            .foregroundColor(.black)
+                    }
                 }
                 .navigationBarTitle("Interactive Control Examples", displayMode:.inline )
             }.tabItem {
