@@ -38,6 +38,16 @@ struct ContentView: View {
                             .background(Color.yellow)
                             .foregroundColor(.black)
                     }
+
+                    NavigationLink(destination: LaunchView(message: "You clicked the button")
+                                    .navigationBarTitle("253YUP")
+                    ) {
+                        Text("253YUP")
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                    }
+                    
                 }
                 .navigationBarTitle("Interactive Control Examples", displayMode:.inline )
             }.tabItem {
